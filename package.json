@@ -1,0 +1,15 @@
+{
+  "name": "ice-test-data",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "generate": "node index.js",
+    "fetch-last-names": "node fetchLastNames"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.0",
+    "randexp": "^0.5.3",
+    "utf8": "^3.0.0"
+  }
+}
